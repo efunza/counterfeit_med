@@ -7,7 +7,7 @@ import streamlit as st
 from openai import OpenAI
 
 
-st.set_page_config(page_title="Counterfeit Medicine Detection", page_icon="💊", layout="wide")
+st.set_page_config(page_title="Counterfeit Medicine Detection By Galana Boys", page_icon="💊", layout="wide")
 
 
 SYSTEM_PROMPT = """
@@ -83,7 +83,7 @@ Remember:
 """.strip()
 
     response = client.responses.create(
-        model="gpt-5.4",
+        model="gpt-4o-mini",
         input=[
             {
                 "role": "system",
