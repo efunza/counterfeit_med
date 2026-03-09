@@ -104,7 +104,7 @@ Remember:
     return extract_json(response.output_text)
 
 
-st.title("💊 Counterfeit Medicine Detection")
+st.title("💊 Counterfeit Medicine Detection By Galana Boys")
 st.caption("AI-powered visual screening for suspicious medicine packaging using OpenAI")
 
 with st.sidebar:
